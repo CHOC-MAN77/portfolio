@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display } from 'next/font/google';
 import "./globals.css";
 import Menu from "./navbar";
+import Footer from "./footer";
 
 
 const playfair = Playfair_Display({
@@ -29,7 +30,9 @@ export default function RootLayout({
           <div className="px-20 pt-40">
             {children}
           </div>
-
+          <div>
+            <Footer />
+          </div>
       </body>
     </html>
   );

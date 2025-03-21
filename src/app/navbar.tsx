@@ -8,7 +8,7 @@ export default function Menu()
       <div>
         <Link href="/" className="hover:underline">Home</Link>
       </div>
-        <h1 className="text-xl font-bold">Jay Montclaire</h1>
+        <h1 className="text-xl font-bold">CHOCMAN</h1>
         <nav className="flex space-x-4">
           <Link href="/all-prints" className="hover:underline">About</Link>
           <Link href="/about" className="hover:underline">Contact</Link>
