@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display } from 'next/font/google';
 import "./globals.css";
-import Menu from "./navbar";
+import Header from "./navbar";
 import Footer from "./footer";
 
 
@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={playfair.className} >
           <div className="">
-            <Menu />
+            <Header />
           </div>
           <div className="px-20 pt-40">
             {children}
