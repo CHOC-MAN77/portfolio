@@ -6,41 +6,41 @@ export const products: Product[] = [
     name: 'Satellite',
     slug: 'satellite',
     price: 100,
-    image: '../img/satellite.jpg'
+    image: '/img/satellite.jpg'
   },
   {
     id: 2,
     name: 'Sand',
     slug: 'sand',
     price: 100,
-    image: '../img/Sand.jpg'
+    image: '/img/Sand.jpg'
   },
   {
     id: 3,
     name: 'Ocean',
     slug: 'ocean',
     price: 100,
-    image: '../img/océan.jpg'
+    image: '/img/océan.jpg'
   },
   {
     id: 4,
     name: 'Sangre',
     slug: 'sangre',
     price: 100,
-    image: '../img/sangre.jpg'
+    image: '/img/sangre.jpg'
   },
   {
     id: 5,
     name: 'Fraise',
     slug: 'fraise',
     price: 100,
-    image: '../img/fresa.jpg'
+    image: '/img/fraise.jpg'
   },
   {
     id: 6,
     name: 'Dune',
     slug: 'dune',
     price: 100,
-    image: '../img/dune.jpg'
+    image: '/img/dune.jpg'
   },
 ];

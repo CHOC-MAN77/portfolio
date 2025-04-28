@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { useCartStore } from '@/app/store/cartStore'
-import { products } from '@/app/data/products'
+import { useCartStore } from '../../store/cartStore'
+import { products } from '../../data/products'
 import { useParams } from 'next/navigation';
 
 export default function ProductPage() {
